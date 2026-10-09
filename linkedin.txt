@@ -10,7 +10,7 @@ No model call, no API key, no latency claim. A local Map and invented policy val
 
 The review question: what can change the authorized answer without changing this key?
 
-Article: DEV_URL
+Article: https://dev.to/bobbyhalljr/your-llm-cache-key-is-missing-half-the-request-build-a-versioned-cache-in-typescript-15dc
 Runnable build: https://github.com/bobbyhalljr/llm-cache-key
 
 I'm building Roster, AI employees that do real work. Faster work still needs permission to reuse the result.
