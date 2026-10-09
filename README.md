@@ -2,7 +2,7 @@
 
 A small, runnable TypeScript build showing why a prompt-only cache can return the wrong user's answer.
 
-Article: the publishing run will add the live DEV article URL here after publication. The complete draft is in [article.md](article.md).
+Article: [Your LLM Cache Key Is Missing Half the Request](https://dev.to/bobbyhalljr/your-llm-cache-key-is-missing-half-the-request-build-a-versioned-cache-in-typescript-15dc). The complete article is also in [article.md](article.md).
 
 ![Cover](images/cover.png)
 
