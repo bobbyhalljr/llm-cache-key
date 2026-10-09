@@ -1,0 +1,1 @@
+{"name":"llm-cache-key","version":"1.0.0","private":true,"type":"module","scripts":{"demo":"node --experimental-strip-types cache.ts","test":"node --experimental-strip-types cache.ts"},"engines":{"node":">=22.18.0"}}

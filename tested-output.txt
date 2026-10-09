@@ -1,0 +1,22 @@
+
+> llm-cache-key@1.0.0 test
+> node --experimental-strip-types cache.ts
+
+prompt-only | beta/bob | ACME_LIMIT=500
+same-request | ACME_LIMIT=500
+different-tenant | MISS
+different-principal | MISS
+access-revoked | MISS
+new-system-prompt | MISS
+new-model-snapshot | MISS
+new-schema | MISS
+new-toolset | MISS
+new-knowledge | MISS
+new-decoding | MISS
+message-order | false
+bypass-side-effects | MISS
+before-expiry | ACME_LIMIT=500
+at-expiry | MISS
+missing-scope | REFUSE
+invalid-decoding | REFUSE
+checks=16 passed

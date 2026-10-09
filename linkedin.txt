@@ -1,0 +1,18 @@
+The fastest model call is the one you skip. That can also skip the boundary that made the answer safe.
+
+Alice and Bob ask the same question. A prompt-only cache returns Alice's policy to Bob. No exception. A cache hit.
+
+I built a tiny TypeScript fixture that reproduces it, then keys results by trusted identity, access revision, model snapshot, full messages, schema, knowledge, tools, and decoding settings.
+
+16 checks passed. Same request hits. Different user misses. Permission revision changes miss before TTL expires.
+
+No model call, no API key, no latency claim. A local Map and invented policy values. A hash does not authorize a read.
+
+The review question: what can change the authorized answer without changing this key?
+
+Article: DEV_URL
+Runnable build: https://github.com/bobbyhalljr/llm-cache-key
+
+I'm building Roster, AI employees that do real work. Faster work still needs permission to reuse the result.
+
+#AIEngineering #TypeScript #LLM #Caching
